@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yggdrasil Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  </head>
+  <body class="bg-secondary">
+    <div class="container p-0 mb-4 mt-4 rounded-3 shadow bg-white">
+      <!-- menu -->
+      <nav class="d-md-flex p-4">
+        <div><h1>Yggdrasil Store</h1></div>
+        <div class="ms-auto my-auto">
+          <ul class="list-inline m-0">
+            <li class="list-inline-item mx-md-3"><a href="#collections" class="text-decoration-none text-dark fw-bold">Produk Kami</a></li>
+            <li class="list-inline-item mx-md-3"><a href="#tentang" class="text-decoration-none text-dark fw-bold">Tentang Kami</a></li>
+            <li class="list-inline-item mx-md-3"><a href="#order" class="text-decoration-none text-dark fw-bold">Cara Order</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="px-4 mb-4">
+        <img src="images/Yggdrasil Store.png" class="w-100 rounded-3" />
+      </div>
+
+      <!-- katalog -->
+      <h3 class="text-center" id="collections">Koleksi Kami</h3>
+      <div class="text-center w-50 mx-auto fw-light">Ini adalah barang-barang yang dijual di Yggdrasil Store</div>
+
+      <div class="row row-cols-md-3 row-cols-2 gx-5 p-5">
+        <div class="col mb-5">
+          <div class="card h-100 d-flex flex-column shadow">
+            <img src="https://images.unsplash.com/photo-1607330447949-5c702089ad0f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZsYW5lbHxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" />
+            <div class="card-body flex-grow-1">
+              <p class="card-text">Kemeja Flanel.</p>
+            </div>
+            <div class="d-none deskripsi"><p>Kemeja Flanel murah tapi berkualitas dan tahan peluru (dalam mimpi)</p></div>
+            <div class="card-footer d-md-flex">
+              <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 200.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100 d-flex flex-column shadow">
+            <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8amVhbnN8ZW58MHx8MHx8fDA%3D" class="card-img-top" />
+            <div class="card-body flex-grow-1">
+              <p class="card-text">Celana Jeans.</p>
+            </div>
+            <div class="d-none deskripsi"><p>Celana Jeans anti api</p></div>
+            <div class="card-footer d-md-flex">
+              <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 300.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100 d-flex flex-column shadow">
+            <img src="https://images.unsplash.com/photo-1650320079970-b4ee8f0dae33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FudmFzJTIwc2hvZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" />
+            <div class="card-body flex-grow-1">
+              <p class="card-text">Sepatu Kanvas.</p>
+            </div>
+            <div class="d-none deskripsi"><p>Sepatu kanvas anti ranjau</p></div>
+            <div class="card-footer d-md-flex">
+              <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 500.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100 d-flex flex-column shadow">
+            <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnR3YXRjaHxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" />
+            <div class="card-body flex-grow-1">
+              <p class="card-text">Smartwatch.</p>
+            </div>
+            <div class="d-none deskripsi"><p>Smartwatch ini bisa menembakkan panah beracun</p></div>
+            <div class="card-footer d-md-flex">
+              <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 800.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100 d-flex flex-column shadow">
+            <img src="images/tas.jpg" class="card-img-top" />
+            <div class="card-body flex-grow-1">
+              <p class="card-text">Tas Kulit.</p>
+            </div>
+            <div class="d-none deskripsi"><p>Tas ini bisa menyimpan apa saja</p></div>
+            <div class="card-footer d-md-flex">
+              <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 150.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card h-100 d-flex flex-column shadow">
+            <img src="https://plus.unsplash.com/premium_photo-1672239496290-5061cfee7ebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" />
+            <div class="card-body flex-grow-1">
+              <p class="card-text">Kacamata.</p>
+            </div>
+            <div class="d-none deskripsi"><p>Kacamata ini bisa melihat tembus pandang</p></div>
+            <div class="card-footer d-md-flex">
+              <a class="btn btn-sm btn-primary d-block btnDetail">detail</a>
+              <span class="ms-auto text-danger fw-bold d-block text-center harga">Rp. 600.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- tentang kami-->
+      <div id="tentang" class="px-4 py-4 bg-secondary text-center">
+        <div class="mx-auto w-75">
+          <h3 class="text-white">Tentang Kami</h3>
+          <p class="text-center text-white"><img src="images/about-us.png" align="left" style="width: 100px; height: auto" class="me-3 mb-3" />Yggdrasil Store adalah toko yang berdiri sejak tahun 2024. Yggdrasil Store menjual pakaian dan aksesoris</p>
+        </div>
+      </div>
+
+      <!-- cara order -->
+      <div id="order" class="px-4 py-4 bg-light text-center">
+        <div class="mx-auto w-75">
+          <h3>Cara Order</h3>
+          <p class="text-center"><img src="images/order.png" align="right" style="width: 100px; height: auto" class="ms-3 mb-3" />Silahkan klik 'detail' diproduk yang ingin anda beli dan klik 'beli produk ini' lalu anda akan diarahkan menuju admin whatsapp</p>
+        </div>
+      </div>
+
+      <!-- copyright -->
+      <div class="text-center p-4 border-top">&copy; 2024 Yggdrasil Store</div>
+    </div>
+    <!-- modal -->
+
+    <button type="button" class="btn btn-primary d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 modalTitle" id="exampleModalLabel"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body row">
+            <div class="modalImage col-md-6 col-12"></div>
+            <div class="col-md-6 col-12">
+              <div class="modalDeskripsi"></div>
+              <div class="d-md-flex">
+                <a href="" target="blank" class="btn btn-sm btn-warning d-block btnBeli">Beli Produk Ini</a>
+                <span class="ms-auto text-danger fw-bold d-block text-center modalHarga"></span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
